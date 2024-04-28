@@ -1,0 +1,58 @@
+.companyLogo{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title{
+  text-align:center;
+  font-size:25px;
+}
+.startfree_sales {
+    text-align: center;
+}
+
+.talksales {
+    display: inline-block;
+    margin: 10px; 
+    padding: 10px 20px; 
+    /* background-color: #4CAF50; */
+    /* color: white; */
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.startforfree  {
+    display: inline-block;
+    margin: 10px; 
+    padding: 10px 20px; 
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+ .startforfree:hover {
+   background-color:white;
+   color:black;
+}
+.talksales:hover{
+  background-color:black;
+  color:white;
+}
+
+@media (max-width: 768px) {
+    .startfree_sales .startforfree .talksales {
+        margin: 5px; 
+    }
+}
