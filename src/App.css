@@ -9,11 +9,11 @@
   text-align:center;
   font-size:25px;
 }
-.startfree_sales {
+.AboutPartnerDiv {
     text-align: center;
 }
 
-.talksales {
+.Partner {
     display: inline-block;
     margin: 10px; 
     padding: 10px 20px; 
@@ -27,7 +27,7 @@
     cursor: pointer;
     transition: background-color 0.3s;
 }
-.startforfree  {
+.AboutUs  {
     display: inline-block;
     margin: 10px; 
     padding: 10px 20px; 
@@ -42,17 +42,17 @@
     transition: background-color 0.3s;
 }
 
- .startforfree:hover {
+ .AboutUs:hover {
    background-color:white;
    color:black;
 }
-.talksales:hover{
+.Partner:hover{
   background-color:black;
   color:white;
 }
 
 @media (max-width: 768px) {
-    .startfree_sales .startforfree .talksales {
+    .AboutPartnerDiv .AboutUs .Partner {
         margin: 5px; 
     }
 }

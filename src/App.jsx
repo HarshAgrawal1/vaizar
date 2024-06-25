@@ -13,10 +13,10 @@ function App() {
     <div>
       <NavBar />
       <img src={companyLogo} className='companyLogo' alt="Vaizar.png" />
-      <h1 class="title">Revolutionizing India's Wholesale Clothing Trade</h1>
-      <div class="startfree_sales">
-          <button class="startforfree">Start for free</button>
-          <button class="talksales">Talk to sales</button>
+      <h1 className="title">Empowering Trade to Connect Millions</h1>
+      <div className="AboutPartnerDiv">
+          <button className="AboutUs">About Us</button>
+          <button className="Partner">Partner</button>
       </div> <br></br> <br></br>
       <Footer />
     </div>

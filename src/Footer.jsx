@@ -12,7 +12,7 @@ function Footer(){
                             <i class="fas fa-map-marker-alt"></i>
                             <div class="cta-text">
                                 <h4>Find us</h4>
-                                <span>Ahmedabad ,Gujarat</span>
+                                <span>Channai,India</span>
                             </div>
                         </div>
                     </div>
@@ -21,7 +21,9 @@ function Footer(){
                             <i class="fas fa-phone"></i>
                             <div class="cta-text">
                                 <h4>Call us</h4>
-                                <span>9876543210 0</span>
+                                <span>7217692417</span><br></br>
+                                <span>8160827979</span>
+                                    
                             </div>
                         </div>
                     </div>
@@ -30,7 +32,7 @@ function Footer(){
                             <i class="far fa-envelope-open"></i>
                             <div class="cta-text">
                                 <h4>Mail us</h4>
-                                <span>mail@info.com</span>
+                                <span>ashish.s@vaizar.com</span>
                             </div>
                         </div>
                     </div>
