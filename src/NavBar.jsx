@@ -1,4 +1,6 @@
 import './NavBar.css'
+import Founders from './Founders';
+
 
 function NavBar(){
   return(
@@ -19,5 +21,6 @@ function NavBar(){
     </div>
   )
 }
+
 
 export default NavBar;

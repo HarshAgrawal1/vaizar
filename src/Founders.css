@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 40px;
+  font-size: 2.5em;
+}
+
+.founders {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.founder {
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 15px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.founder:hover {
+  transform: scale(1.05);
+}
+
+.founder img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.founder h2 {
+  margin: 15px 0 5px 0;
+  font-size: 1.5em;
+}
+
+.founder p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.socials {
+  margin-top: 10px;
+}
+
+.socials a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #0077b5; /* LinkedIn color */
+  transition: color 0.3s;
+}
+
+.socials a:hover {
+  color: #005582;
+}
+
+@media (max-width: 768px) {
+  .founders {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .founder {
+      width: 80%;
+  }
+}
+

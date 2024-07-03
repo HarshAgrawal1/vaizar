@@ -3,7 +3,7 @@ import './NavBar'
 import './Footer'
 import Footer from './Footer';
 import NavBar from './NavBar';
-import companyLogo from '/public/vaizar image.png';
+import companyLogo from '/src/vaizar image.png';
 
 function App() {
   return (
